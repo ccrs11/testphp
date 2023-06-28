@@ -1,4 +1,5 @@
 DROP DATABASE campuslands;
+
 CREATE DATABASE campuslands;
 
 USE campuslands;
@@ -39,26 +40,27 @@ CREATE TABLE campers(
 
 
 INSERT INTO `pais` (`idPais`, `nombrePais`) VALUES
-(1, 'Colombia'),
-(2, 'Venezuela'),
-(3, 'Brazil'),
-(4, 'Peru');
+(3, 'argentina'),
+(1, 'colombia'),
+(2, 'mexico');
 
 INSERT INTO `departamento` (`idDep`, `nombreDep`, `idPais`) VALUES
-(1, 'Santander', 1),
-(2, 'Boyacá', 1),
-(3, 'Tachira', 2),
-(4, 'Merida', 2);
+(1, 'santander', 1),
+(2, 'ANTIOQUIA', 1),
+(3, 'CMDX', 2),
+(4, 'CANCUN', 2),
+(5, 'Rio plata', 3);
 
 INSERT INTO `region` (`idReg`, `nombreReg`, `idDep`) VALUES
-(1, 'Piedecuesta', 1),
-(2, 'Duitama', 2),
-(3, 'Guaduas', 3),
-(4, 'Palamares', 4);
+(1, 'Bucaramanga', 1),
+(2, 'Medellin', 2),
+(3, 'Ciudad de mexico', 3),
+(4, 'CANCUN', 4),
+(5, 'Buenos aires', 5);
 
 
 INSERT INTO `campers` (`idCamper`, `nombreCamper`, `apellidoCamper`, `fechaNac`, `idReg`) VALUES
-(1, 'Cristian', 'Rojas', '1996-01-04', 2);
+(1, 'daniel', 'manosalva', '2002-03-13', 5);
 
 
 

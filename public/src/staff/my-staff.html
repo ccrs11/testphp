@@ -1,0 +1,95 @@
+<style>
+    #my-form fieldset{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    fieldset{
+        padding: 10px;
+    }
+
+    .content-table{
+        margin: auto;
+        padding: auto;
+    }
+
+    .accion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+
+        font-size: 20px;
+    }
+
+    .accion button{
+        cursor: pointer;
+    }
+
+</style>
+
+<div class="head">
+    <h3>Regions</h3>
+</div>
+
+<div class="content-form" style="width: 100%;">
+    <form id="my-form">
+        <fieldset>
+            <legend>Crea un nuevo Camper</legend>
+            <div class="form-group">
+                <label for="nombreCamper" style="margin: auto;">nombre:</label>
+                <input type="text" name="nombreCamper" class="form-control" id="nombreCamper" placeholder="nombreCamper">
+            </div>
+            <div class="form-group">
+                <label for="apellidoCamper" style="margin: auto;">apellido:</label>
+                <input type="text" name="apellidoCamper" class="form-control" id="apellidoCamper" placeholder="apellidoCamper">
+            </div>
+            <div class="form-group">
+                <label for="fechaNac" style="margin: auto;">fecha de nacimiento:</label>
+                <input type="date" name="fechaNac" class="form-control" id="fechaNac" placeholder="fechaNac">
+            </div>
+            <div class="form-group">
+                <label for="idDep" style="margin: auto;">departamento:</label>
+                <select name="idDep" id="idDep">
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="idReg" style="margin: auto;">region:</label>
+                <select name="idReg" id="idReg">
+                    
+                </select>
+            </div>
+
+        </fieldset>
+        <div class="form-group">
+            <input type="submit" placeholder="Send">
+        </div>
+    </form>
+    <hr>
+    <br>
+    <div class="content-table">
+        <table style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>nombre</th>
+                    <th>apellido</th>
+                    <th>fecha nacimiento</th>
+                    <th>region</th>
+
+                </tr>
+            </thead>
+            <tbody id="data-get">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<!-- conteido -->
