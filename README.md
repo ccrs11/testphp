@@ -2,6 +2,14 @@
 
 Este repositorio contiene el ejercicio que se dejó en el programa de formación. Consiste en un MODULO DE ADMINISTRADOR PARA LA GESTIÓN DE INFORMACION DE LA EMPRESA CAMPUSLANDS.
 
+Nombre de camper: Cristian Camilo Rojas
+
+Curso: M3
+
+
+
+
+
 ## 1) Base de datos
 
 
@@ -16,19 +24,19 @@ El ingreso de los datos se realiza así : Para los paises
 
 
 
-![Screenshot from 2023-06-28 15-59-35](/var/www/html/ApolT01-009/testphp/img/Screenshot from 2023-06-28 15-59-35.png)
+![Screenshot from 2023-06-28 15-59-35](img/Screenshot from 2023-06-28 15-59-35.png)
 
 para los departamentos
 
-![Screenshot from 2023-06-28 16-00-49](/var/www/html/ApolT01-009/testphp/img/Screenshot from 2023-06-28 16-00-49.png)
+![Screenshot from 2023-06-28 16-00-49](img/Screenshot from 2023-06-28 16-00-49.png)
 
 para las regiones: 
 
-![Screenshot from 2023-06-28 16-01-12](/var/www/html/ApolT01-009/testphp/img/Screenshot from 2023-06-28 16-01-12.png)
+![Screenshot from 2023-06-28 16-01-12](img/Screenshot from 2023-06-28 16-01-12.png)
 
 para insertar campers:
 
-![Screenshot from 2023-06-28 16-01-47](/var/www/html/ApolT01-009/testphp/img/Screenshot from 2023-06-28 16-01-47.png)
+![Screenshot from 2023-06-28 16-01-47](img/Screenshot from 2023-06-28 16-01-47.png)
 
 
 
@@ -52,6 +60,4 @@ La conexión se realizó con la librería bramus/router.
     composer install
 ```
 
-* Despúes de instalar las librerias necesarias ir a los archivos public/staff/mystaff.js y cambiar los links de los endpoints dependiendo de la ruta donde esté ejecutando los archivos. 
-
-Ver la página en su navegador de confianza. 
+* Despúes de instalar las librerias necesarias ir a los archivos. Faltó parte la parte del front.
