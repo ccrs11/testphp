@@ -1,21 +1,29 @@
 Parte de base de datos el script está guardado en un archivo llamado campuslands.sql y se realizó con el terminal.
 
-![](/home/apolt01-009/Pictures/Screenshots/Screenshot from 2023-06-28 15-41-13.png)
+![](img/Screenshot from 2023-06-28 15-41-13.png)
 
 El id de campers lo cambie de varchar a int autoincremental porque así es como nos tienen nombrados acá, por un ID. 
 
 El ingreso de los datos se realiza así : Para los paises
 
-![image-20230628160004199](/home/apolt01-009/.config/Typora/typora-user-images/image-20230628160004199.png)
+
+
+![Screenshot from 2023-06-28 15-59-35](/var/www/html/ApolT01-009/testphp/img/Screenshot from 2023-06-28 15-59-35.png)
+
+![Screenshot from 2023-06-28 16-00-49](/var/www/html/ApolT01-009/testphp/img/Screenshot from 2023-06-28 16-00-49.png)
+
+![Screenshot from 2023-06-28 16-01-12](/var/www/html/ApolT01-009/testphp/img/Screenshot from 2023-06-28 16-01-12.png)
+
+![Screenshot from 2023-06-28 16-01-47](/var/www/html/ApolT01-009/testphp/img/Screenshot from 2023-06-28 16-01-47.png)
 
 para los departamentos
 
-![image-20230628160054826](/home/apolt01-009/.config/Typora/typora-user-images/image-20230628160054826.png)
 
-para las regiones: ![image-20230628160125352](/home/apolt01-009/.config/Typora/typora-user-images/image-20230628160125352.png)
+
+para las regiones: 
 
 para insertar campers:
 
-![image-20230628160157159](/home/apolt01-009/.config/Typora/typora-user-images/image-20230628160157159.png)
+
 
 Ahora se realiza la parte de la conexión.

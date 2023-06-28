@@ -1,0 +1,21 @@
+{
+    "name": "ccrs/projectpdo",
+    "autoload": {
+        "psr-4": {
+            "App\\":[ 
+                "./scripts",
+                "./scripts/db"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "ccrs11",
+            "email": "ccrs11@hotmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
