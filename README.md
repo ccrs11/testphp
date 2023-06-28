@@ -27,3 +27,17 @@ para insertar campers:
 
 
 Ahora se realiza la parte de la conexión.
+
+## ¿Como usar este repositorio?
+
+* Debe tener instalado php y composer.
+* Descargar el repositorio o clonarlo en el pc.
+* Entrar a el directorio donde se descargó el repositorio y abrir la terminal, luego escribir en la terminal:
+
+```
+    composer install
+```
+
+* Despúes de instalar las librerias necesarias ir a los archivos public/staff/mystaff.js y cambiar los links de los endpoints dependiendo de la ruta donde esté ejecutando los archivos. 
+
+Ver la página en su navegador de confianza.

@@ -47,11 +47,4 @@
     });
 
     $router->run();
-    /*
-        Preparar -> 
-            - Se llama a la conexion    
-        Enviar  ->
-        Ejecutar ->
-        Esperar ->
-    */
 ?>
